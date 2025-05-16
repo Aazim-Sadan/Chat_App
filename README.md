@@ -3,7 +3,7 @@
 # Features
 
 <h2>Front Page</h2>
-<img src="./frontend/src/assets/project-screenshot/Frontpage1.png">
+<img src="./frontend/src/assets/project-screenshot/Frontpage.png">
 
 <img src="./frontend/src/assets/project-screenshot/Frontpage2.png">
 
