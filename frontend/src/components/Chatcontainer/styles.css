@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   grid-column: 7/-1;
-  /* overflow-y: auto; */
   position: relative;
 }
 
@@ -49,7 +48,6 @@
 }
 .chat-talking{
    flex: 1;
-   
 }
 .chat-talking-section {
   position: relative;
@@ -107,44 +105,13 @@
     text-decoration: underline wavy var(--accent-color);
   }
 
-  /* todo make these before and after work
-    else implement, the way google messages
-    rcs has. 
-    */
-  /* .reciever::before {
-        content: "";
-        top: 0;
-        left: -8px;
-        position: absolute;
-        width: 0px;
-        height: 0px;
-        border-style: solid;
-        border-width: 6px;
-        border-color: var(--chat-bg-color) var(--chat-bg-color) transparent
-            transparent;
-    } */
-  /*  todo: the message tail */
-  /* .owner::after {
-        content: "";
-        top: 0;
-        right: -8px;
-        position: absolute;
-        width: 0px;
-        height: 0px;
-        border-style: solid;
-        border-width: 6px;
-        border-color: var(--chat-bg-color) transparent transparent
-            var(--chat-bg-color);
-
-    } */
 }
 
 .chat-talking-section::-webkit-scrollbar {
   width: 0.25rem;
 }
 
-.chat-talking-section::-webkit-scrollbar-track {
-}
+
 .chat-talking-section::-webkit-scrollbar-thumb {
   background-color: var(--accent-color);
 }
