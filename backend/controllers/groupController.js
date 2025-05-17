@@ -12,8 +12,8 @@ export const createGroup = async (req, res) => {
             req.body;
         participants = [...participants, { _id: adminId }];
         console.log("participants are", participants);
-        if (participants?.length <= 2) {
-            throw new Error("Group must have minimum of three participants!");
+        if (participants?.length <= 1) {
+            throw new Error("Group must have minimum of two participants!");
         }
         const participantsId = participants?.map((item, index) => {
             return new mongoose.Types.ObjectId(item?._id);
